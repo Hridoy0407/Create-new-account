@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: rgb(220, 220, 220);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    padding: 70px 120px 70px 120px;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    display: flex;
+}
+h1{
+    font-size: 60px;
+    color: blue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p{
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container{
+    margin-top: 150px;
+}
+.container1{
+    width: 600px;
+    margin: 100px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+input{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(220, 220, 220);
+    font-size: 20px;
+}
+input:focus{
+    outline: none;
+    border: 1px solid blue;
+     
+}
+div{
+    margin-top: 10px;
+}
+.btn-form{
+    width: 100%;
+    background:blue;
+    color: white;
+    margin-top: 10px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 20px;
+}
+.fgp-form{
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    text-align: center;
+    color: blue;
+}
+.cna-form{
+    font-family: sans-serif;
+    display: block;
+    text-align: center;
+    background: rgb(7, 148, 7);
+    color: white;
+    margin: 25px 70px 20px 70px;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.container-fgp{
+    width: 600px;
+    margin: 100px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.heading{
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
